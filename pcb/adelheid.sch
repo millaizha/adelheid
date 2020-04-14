@@ -1,6 +1,5 @@
-EESchema Schematic File Version 4
-LIBS:arisu-cache
-EELAYER 26 0
+EESchema Schematic File Version 5
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -13,9 +12,14 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
+L adelheid-rescue:ATmega32U4-AU-MCU_Microchip_ATmega-arisu-rescue U2
 U 1 1 5C4B1F82
 P 4500 4250
 F 0 "U2" H 4900 2400 50  0000 C CNN
@@ -23,17 +27,6 @@ F 1 "ATmega32U4-AU" H 4900 2500 50  0000 C CNN
 F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4500 4250 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4500 4250 50  0001 C CNN
 	1    4500 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 5C4B21E5
-P 1000 4800
-F 0 "J1" H 1055 5267 50  0000 C CNN
-F 1 "USB_B_Micro" H 1055 5176 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1150 4750 50  0001 C CNN
-F 3 "~" H 1150 4750 50  0001 C CNN
-	1    1000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -148,6 +141,7 @@ F 0 "C4" H 3765 4246 50  0000 L CNN
 F 1 "1uF (±10%)" H 3765 4155 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 4050 50  0001 C CNN
 F 3 "~" H 3650 4200 50  0001 C CNN
+F 4 "C28323" H 3650 4200 50  0001 C CNN "LCSC"
 	1    3650 4200
 	1    0    0    -1  
 $EndComp
@@ -187,6 +181,7 @@ F 0 "C1" H 1436 3754 50  0000 R CNN
 F 1 "22pF" H 1436 3845 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1588 3650 50  0001 C CNN
 F 3 "~" H 1550 3800 50  0001 C CNN
+F 4 "C1804" H 1550 3800 50  0001 C CNN "LCSC"
 	1    1550 3800
 	1    0    0    1   
 $EndComp
@@ -198,6 +193,7 @@ F 0 "C2" H 2365 3846 50  0000 L CNN
 F 1 "22pF" H 2365 3755 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2288 3650 50  0001 C CNN
 F 3 "~" H 2250 3800 50  0001 C CNN
+F 4 "C1804" H 2250 3800 50  0001 C CNN "LCSC"
 	1    2250 3800
 	1    0    0    -1  
 $EndComp
@@ -267,6 +263,7 @@ F 0 "C3" H 3365 4246 50  0000 L CNN
 F 1 "10uF" H 3365 4155 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 4050 50  0001 C CNN
 F 3 "~" H 3250 4200 50  0001 C CNN
+F 4 "C15850" H 3250 4200 50  0001 C CNN "LCSC"
 	1    3250 4200
 	1    0    0    -1  
 $EndComp
@@ -402,6 +399,7 @@ F 0 "C5" H 5365 1196 50  0000 L CNN
 F 1 "1uF" H 5365 1105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 1000 50  0001 C CNN
 F 3 "~" H 5250 1150 50  0001 C CNN
+F 4 "C28323" H 5250 1150 50  0001 C CNN "LCSC"
 	1    5250 1150
 	1    0    0    -1  
 $EndComp
@@ -413,6 +411,7 @@ F 0 "C6" H 5365 1746 50  0000 L CNN
 F 1 "0.1uF" H 5365 1655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 1550 50  0001 C CNN
 F 3 "~" H 5250 1700 50  0001 C CNN
+F 4 "C49678" H 5250 1700 50  0001 C CNN "LCSC"
 	1    5250 1700
 	1    0    0    -1  
 $EndComp
@@ -437,6 +436,7 @@ F 0 "C8" H 5815 1746 50  0000 L CNN
 F 1 "0.1uF" H 5815 1655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 1550 50  0001 C CNN
 F 3 "~" H 5700 1700 50  0001 C CNN
+F 4 "C49678" H 5700 1700 50  0001 C CNN "LCSC"
 	1    5700 1700
 	1    0    0    -1  
 $EndComp
@@ -448,6 +448,7 @@ F 0 "C7" H 5365 2296 50  0000 L CNN
 F 1 "0.1uF" H 5365 2205 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 2100 50  0001 C CNN
 F 3 "~" H 5250 2250 50  0001 C CNN
+F 4 "C49678" H 5250 2250 50  0001 C CNN "LCSC"
 	1    5250 2250
 	1    0    0    -1  
 $EndComp
@@ -470,6 +471,7 @@ F 0 "C9" H 5815 2296 50  0000 L CNN
 F 1 "0.1uF" H 5815 2205 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 2100 50  0001 C CNN
 F 3 "~" H 5700 2250 50  0001 C CNN
+F 4 "C49678" H 5700 2250 50  0001 C CNN "LCSC"
 	1    5700 2250
 	1    0    0    -1  
 $EndComp
@@ -626,29 +628,17 @@ col13
 Text Label 6400 3050 0    50   ~ 0
 col14
 Entry Wire Line
-	5400 5350 5500 5450
+	5450 5450 5550 5550
 Entry Wire Line
-	5400 5450 5500 5550
-Entry Wire Line
-	5400 5550 5500 5650
-Entry Wire Line
-	5400 5650 5500 5750
+	5450 5550 5550 5650
 Wire Wire Line
-	5100 5350 5400 5350
+	5100 5450 5450 5450
 Wire Wire Line
-	5100 5450 5400 5450
-Wire Wire Line
-	5100 5550 5400 5550
-Wire Wire Line
-	5100 5650 5400 5650
-Text Label 5250 5350 0    50   ~ 0
-PF4
+	5100 5550 5450 5550
 Text Label 5250 5450 0    50   ~ 0
 PF5
 Text Label 5250 5550 0    50   ~ 0
 PF6
-Text Label 5250 5650 0    50   ~ 0
-PF7
 $Comp
 L Device:R R4
 U 1 1 5C4E7AD8
@@ -702,6 +692,7 @@ F18 "col11" T L 7500 4500 50
 F19 "col12" T L 7500 4600 50 
 F20 "col13" T L 7500 4700 50 
 F21 "col14" T L 7500 4800 50 
+F22 "row00" B L 7500 2700 50 
 $EndSheet
 Wire Wire Line
 	7500 2800 7150 2800
@@ -784,17 +775,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 3400 7500 3400
 $Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5C895E5D
-P 6100 6600
-F 0 "J8" H 6179 6642 50  0000 L CNN
-F 1 "PF4" H 6179 6551 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 6600 50  0001 C CNN
-F 3 "~" H 6100 6600 50  0001 C CNN
-	1    6100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J9
 U 1 1 5C895ED7
 P 6100 6800
@@ -819,77 +799,20 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J11
 U 1 1 5C895F5B
-P 6100 7200
-F 0 "J11" H 6179 7242 50  0000 L CNN
-F 1 "PF7" H 6179 7151 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 7200 50  0001 C CNN
-F 3 "~" H 6100 7200 50  0001 C CNN
-	1    6100 7200
+P 6100 6600
+F 0 "J11" H 6179 6642 50  0000 L CNN
+F 1 "PF4" H 6179 6551 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 6600 50  0001 C CNN
+F 3 "~" H 6100 6600 50  0001 C CNN
+	1    6100 6600
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	5500 7300 5600 7200
+	5550 6700 5650 6600
 Entry Wire Line
-	5500 7100 5600 7000
+	5550 7100 5650 7000
 Entry Wire Line
-	5500 6900 5600 6800
-Entry Wire Line
-	5500 6700 5600 6600
-Wire Bus Line
-	5750 2700 6100 2700
-Wire Bus Line
-	6100 700  6100 2700
-Wire Bus Line
-	3550 700  6100 700 
-Entry Wire Line
-	5750 3150 5850 3050
-Entry Wire Line
-	5750 2950 5850 2850
-Entry Wire Line
-	5650 2850 5750 2950
-Entry Wire Line
-	5650 2950 5750 3050
-Entry Wire Line
-	5650 3050 5750 3150
-Wire Wire Line
-	5850 3050 6650 3050
-Wire Wire Line
-	5850 2850 6650 2850
-Wire Wire Line
-	5650 2850 5100 2850
-Wire Wire Line
-	5100 2950 5650 2950
-Wire Wire Line
-	5100 3050 5650 3050
-Text Label 5450 2850 0    50   ~ 0
-SCK
-Text Label 5450 2950 0    50   ~ 0
-MOSI
-Text Label 5450 3050 0    50   ~ 0
-MISO
-Text Label 5900 2850 0    50   ~ 0
-SCK
-Text Label 5900 3050 0    50   ~ 0
-MISO
-Wire Wire Line
-	6650 3150 6200 3150
-Wire Wire Line
-	6200 3150 6200 3200
-Wire Wire Line
-	5350 3150 5350 3200
-Wire Wire Line
-	5350 3200 6200 3200
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5C90B624
-P 2900 900
-F 0 "J2" H 3050 850 50  0000 C CNN
-F 1 "MISO" H 3050 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 900 50  0001 C CNN
-F 3 "~" H 2900 900 50  0001 C CNN
-	1    2900 900 
-	-1   0    0    1   
-$EndComp
+	5550 6900 5650 6800
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5C90B878
@@ -899,28 +822,6 @@ F 1 "VCC" H 3050 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 1100 50  0001 C CNN
 F 3 "~" H 2900 1100 50  0001 C CNN
 	1    2900 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5C90BFC6
-P 2900 1300
-F 0 "J4" H 3050 1250 50  0000 C CNN
-F 1 "SCK" H 3050 1350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 1300 50  0001 C CNN
-F 3 "~" H 2900 1300 50  0001 C CNN
-	1    2900 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5C90C00A
-P 2900 1500
-F 0 "J5" H 3050 1450 50  0000 C CNN
-F 1 "MOSI" H 3050 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 1500 50  0001 C CNN
-F 3 "~" H 2900 1500 50  0001 C CNN
-	1    2900 1500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -945,24 +846,6 @@ F 3 "~" H 2900 1900 50  0001 C CNN
 	1    2900 1900
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	3450 900  3550 1000
-Entry Wire Line
-	3450 1300 3550 1400
-Entry Wire Line
-	3450 1500 3550 1600
-Wire Wire Line
-	3100 1500 3450 1500
-Wire Wire Line
-	3100 1300 3450 1300
-Wire Wire Line
-	3100 900  3450 900 
-Text Label 3250 1300 0    50   ~ 0
-SCK
-Text Label 3250 1500 0    50   ~ 0
-MOSI
-Text Label 3250 900  0    50   ~ 0
-MISO
 Wire Wire Line
 	3100 1700 3600 1700
 Wire Wire Line
@@ -1003,21 +886,17 @@ Wire Wire Line
 Wire Wire Line
 	3700 1900 3700 1950
 Wire Wire Line
-	5600 6600 5900 6600
+	5650 6800 5900 6800
 Wire Wire Line
-	5600 6800 5900 6800
+	5650 7000 5900 7000
 Wire Wire Line
-	5600 7000 5900 7000
-Wire Wire Line
-	5600 7200 5900 7200
-Text Label 5650 6600 0    50   ~ 0
-PF4
+	5650 6600 5900 6600
 Text Label 5650 6800 0    50   ~ 0
 PF5
 Text Label 5650 7000 0    50   ~ 0
 PF6
-Text Label 5650 7200 0    50   ~ 0
-PF7
+Text Label 5650 6600 0    50   ~ 0
+PF4
 NoConn ~ 3900 3350
 Wire Wire Line
 	5100 2750 6650 2750
@@ -1071,8 +950,6 @@ Text Label 7200 3800 0    50   ~ 0
 col4
 Text Label 7200 3900 0    50   ~ 0
 col5
-Wire Wire Line
-	5100 3150 5350 3150
 Text Label 7200 3200 0    50   ~ 0
 row4
 Text Label 7200 2800 0    50   ~ 0
@@ -1192,16 +1069,6 @@ F 3 "~" H 8700 2900 50  0001 C CNN
 	1    8700 2900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5750 2700 5750 3150
-Wire Bus Line
-	3550 700  3550 2100
-Wire Bus Line
-	5500 5350 5500 7400
-Wire Bus Line
-	6750 2750 6750 5800
-Wire Bus Line
-	7050 2650 7050 5800
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5C59C18D
@@ -1268,4 +1135,148 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    8700 4100
 	1    0    0    -1  
 $EndComp
+Entry Wire Line
+	7050 2800 7150 2700
+Wire Wire Line
+	7150 2700 7500 2700
+Text Label 7200 2700 0    50   ~ 0
+row00
+Entry Wire Line
+	6750 5650 6650 5550
+Text Label 6600 5550 2    50   ~ 0
+row00
+Wire Wire Line
+	6200 5550 6650 5550
+Entry Wire Line
+	5550 5450 5450 5350
+Wire Wire Line
+	5100 5350 5450 5350
+Text Label 5400 5350 2    50   ~ 0
+PF4
+Wire Wire Line
+	5100 5650 5300 5650
+Wire Wire Line
+	5300 5650 5300 5700
+Wire Wire Line
+	5300 5700 6200 5700
+Wire Wire Line
+	6200 5550 6200 5700
+Wire Wire Line
+	5850 3050 6650 3050
+Wire Wire Line
+	5100 3150 5350 3150
+Wire Wire Line
+	6650 3150 6200 3150
+Wire Wire Line
+	5850 2850 6650 2850
+Wire Wire Line
+	6200 3150 6200 3200
+Wire Wire Line
+	5350 3150 5350 3200
+Wire Wire Line
+	5350 3200 6200 3200
+Text Label 5900 3050 0    50   ~ 0
+MISO
+Text Label 5450 2950 0    50   ~ 0
+MOSI
+Text Label 5450 3050 0    50   ~ 0
+MISO
+Wire Wire Line
+	5100 2950 5650 2950
+Wire Wire Line
+	5100 3050 5650 3050
+Wire Wire Line
+	5650 2850 5100 2850
+Entry Wire Line
+	5750 2950 5850 2850
+Entry Wire Line
+	5650 3050 5750 3150
+Entry Wire Line
+	5750 3150 5850 3050
+Entry Wire Line
+	5650 2950 5750 3050
+Entry Wire Line
+	5650 2850 5750 2950
+Text Label 5450 2850 0    50   ~ 0
+SCK
+Text Label 5900 2850 0    50   ~ 0
+SCK
+Wire Bus Line
+	5750 2700 6100 2700
+Wire Bus Line
+	6100 700  6100 2700
+Wire Bus Line
+	3550 700  6100 700 
+Text Label 3250 900  0    50   ~ 0
+MISO
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C90B624
+P 2900 900
+F 0 "J2" H 3050 850 50  0000 C CNN
+F 1 "MISO" H 3050 950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 900 50  0001 C CNN
+F 3 "~" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 900  3450 900 
+Entry Wire Line
+	3450 900  3550 1000
+Text Label 3250 1300 0    50   ~ 0
+SCK
+Text Label 3250 1500 0    50   ~ 0
+MOSI
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C90C00A
+P 2900 1500
+F 0 "J5" H 3050 1450 50  0000 C CNN
+F 1 "MOSI" H 3050 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 1500 50  0001 C CNN
+F 3 "~" H 2900 1500 50  0001 C CNN
+	1    2900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C90BFC6
+P 2900 1300
+F 0 "J4" H 3050 1250 50  0000 C CNN
+F 1 "SCK" H 3050 1350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2900 1300 50  0001 C CNN
+F 3 "~" H 2900 1300 50  0001 C CNN
+	1    2900 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1500 3450 1500
+Wire Wire Line
+	3100 1300 3450 1300
+Entry Wire Line
+	3450 1500 3550 1600
+Entry Wire Line
+	3450 1300 3550 1400
+$Comp
+L Connector:USB_B_Mini J1
+U 1 1 5EA44F67
+P 1000 4800
+F 0 "J1" H 1056 5266 50  0000 C CNN
+F 1 "USB_B_Mini" H 1057 5175 50  0000 C CNN
+F 2 "Keebio-Parts:USB-Mini-B_2leg" H 1150 4750 50  0001 C CNN
+F 3 "~" H 1150 4750 50  0001 C CNN
+	1    1000 4800
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	5750 2700 5750 3150
+Wire Bus Line
+	3550 700  3550 2100
+Wire Bus Line
+	5550 5450 5550 7500
+Wire Bus Line
+	7050 2650 7050 5800
+Wire Bus Line
+	6750 2750 6750 5800
 $EndSCHEMATC

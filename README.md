@@ -1,25 +1,21 @@
-# Arisu Keyboard PCB
-アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
+# 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - WIP
 
-Key differences:
-- I removed the extra [B] key on the right half and shifted the [NM,.?] row to the left by 0.25U.
-- Shifted the 3 keys to the right and added arrow keys.
-- Tweaked the bottom so that the 1.5U keys doesn't protrude out a little.
+The Adelheid is a 75% Alice-like keyboard.  
+It's a fork of FateNozomi's Arisu files: [PCB](https://github.com/FateNozomi/arisu-pcb) &amp; [Case](https://github.com/FateNozomi/arisu-case)
 
-Shifting the [NM,.?] row to the left by 0.25U required quite some work on the arrangement of keys for the right half.
-As a result, this does not give the same typing experience as Lyn's EM7 and TGR Alice.
-Lyn's EM7 and TGR Alice uses the home row as the center point to vertically align both halves while I used the number row instead.
-Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
+## Changes
 
-Disclaimer: Use these files at your own risk.
+- [x] added an angled function row
+- [x] added option for stepped caps lock
+- [x] replaced micro usb port with tht mini usb port
+- [ ] single color led backlight?
 
-![Arisu](https://i.imgur.com/knt518E.jpg)
-![Arisu-top](https://i.imgur.com/wsqCuEu.jpg)
-![アリス](https://i.redd.it/n80mvj5v7ji21.jpg)
+## Layout
 
-## Gerber Files
-Download the gerber files under [releases](https://github.com/FateNozomi/arisu-pcb/releases).
+[Keyboard-Layout-Editor](http://www.keyboard-layout-editor.com/#/gists/4262535adb5ac81a913edbebc4de8226)  
+![adelheid_layout](./images/layout.png)
+[raw &amp; revisions](https://gist.github.com/floookay/4262535adb5ac81a913edbebc4de8226)
 
-## Assembly
-For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.
-All the components can be soldered using a regular soldering iron, though soldering the Micro USB receptacle might be the biggest hurdle.
+## Firmware
+
+[https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid](https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid)
