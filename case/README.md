@@ -13,6 +13,8 @@ The case is kept similarly to the Arisu case:
 - sandwich mount
 - 6 layers of 3mm material (plus 2 layers for angle)
 
+![adelheid_case_hp_layers](../images/case_hp_layers.jpg)
+
 ### Parts list
 
 - 12x 12mm M 2.5 screws
