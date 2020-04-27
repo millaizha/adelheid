@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Arisu"
+Title "Adelheid"
 Date ""
-Rev "1.0"
-Comp "Fate"
-Comment1 ""
+Rev "1.0.1"
+Comp "floookay"
+Comment1 "fork of FateNozomi/arisu-pcb"
 Comment2 ""
 Comment3 ""
 Comment4 ""
