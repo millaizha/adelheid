@@ -1,4 +1,4 @@
-# Arisu Keyboard PCB
+# adelheid Keyboard PCB
 アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
 
 Key differences:
@@ -13,12 +13,12 @@ Due to the nature of staggered keyboards, aligning using the number row resulted
 
 Disclaimer: Use these files at your own risk.
 
-![Arisu](https://i.imgur.com/knt518E.jpg)
-![Arisu-top](https://i.imgur.com/wsqCuEu.jpg)
+![adelheid](https://i.imgur.com/knt518E.jpg)
+![adelheid-top](https://i.imgur.com/wsqCuEu.jpg)
 ![アリス](https://i.redd.it/n80mvj5v7ji21.jpg)
 
 ## Gerber Files
-Download the gerber files under [releases](https://github.com/FateNozomi/arisu-pcb/releases).
+Download the gerber files under [releases](https://github.com/FateNozomi/adelheid-pcb/releases).
 
 ## Assembly
 For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.

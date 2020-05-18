@@ -19,7 +19,7 @@ Comment8 ""
 Comment9 ""
 $EndDescr
 $Comp
-L arisu-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U2
+L adelheid-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U2
 U 1 1 5C4B1F82
 P 4500 4250
 F 0 "U2" H 4900 2400 50  0000 C CNN

@@ -31,7 +31,7 @@ ERC_CheckBusToNetConflicts=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=arisu.net
+LastNetListRead=adelheid.net
 LastSTEPExportPath=
 LastIDFExportPath=
 LastVRMLExportPath=
