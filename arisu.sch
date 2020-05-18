@@ -1,6 +1,5 @@
-EESchema Schematic File Version 4
-LIBS:arisu-cache
-EELAYER 26 0
+EESchema Schematic File Version 5
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -13,9 +12,14 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
+L arisu-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U2
 U 1 1 5C4B1F82
 P 4500 4250
 F 0 "U2" H 4900 2400 50  0000 C CNN
@@ -30,8 +34,8 @@ L Connector:USB_B_Micro J1
 U 1 1 5C4B21E5
 P 1000 4800
 F 0 "J1" H 1055 5267 50  0000 C CNN
-F 1 "USB_B_Micro" H 1055 5176 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1150 4750 50  0001 C CNN
+F 1 "USB_B_Mini" H 1055 5176 50  0000 C CNN
+F 2 "Keebio-Parts:USB-Mini-B_2leg" H 1150 4750 50  0001 C CNN
 F 3 "~" H 1150 4750 50  0001 C CNN
 	1    1000 4800
 	1    0    0    -1  
@@ -53,7 +57,7 @@ U 1 1 5C4B245D
 P 2950 4800
 F 0 "R1" V 2850 4800 50  0000 C CNN
 F 1 "22" V 2950 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 4800 50  0001 C CNN
 F 3 "~" H 2950 4800 50  0001 C CNN
 	1    2950 4800
 	0    1    1    0   
@@ -64,7 +68,7 @@ U 1 1 5C4B25B0
 P 2950 4900
 F 0 "R2" V 3050 4900 50  0000 C CNN
 F 1 "22" V 2950 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 4900 50  0001 C CNN
 F 3 "~" H 2950 4900 50  0001 C CNN
 	1    2950 4900
 	0    1    1    0   
@@ -320,7 +324,7 @@ U 1 1 5C4CB1B6
 P 3800 2550
 F 0 "R3" H 3870 2596 50  0000 L CNN
 F 1 "10K" V 3800 2500 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 2550 50  0001 C CNN
 F 3 "~" H 3800 2550 50  0001 C CNN
 	1    3800 2550
 	1    0    0    -1  
@@ -625,37 +629,15 @@ Text Label 6400 4550 0    50   ~ 0
 col13
 Text Label 6400 3050 0    50   ~ 0
 col14
-Entry Wire Line
-	5400 5350 5500 5450
-Entry Wire Line
-	5400 5450 5500 5550
-Entry Wire Line
-	5400 5550 5500 5650
-Entry Wire Line
-	5400 5650 5500 5750
-Wire Wire Line
-	5100 5350 5400 5350
 Wire Wire Line
 	5100 5450 5400 5450
-Wire Wire Line
-	5100 5550 5400 5550
-Wire Wire Line
-	5100 5650 5400 5650
-Text Label 5250 5350 0    50   ~ 0
-PF4
-Text Label 5250 5450 0    50   ~ 0
-PF5
-Text Label 5250 5550 0    50   ~ 0
-PF6
-Text Label 5250 5650 0    50   ~ 0
-PF7
 $Comp
 L Device:R R4
 U 1 1 5C4E7AD8
 P 5700 5900
 F 0 "R4" H 5770 5946 50  0000 L CNN
 F 1 "10K" V 5700 5850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5630 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 5900 50  0001 C CNN
 F 3 "~" H 5700 5900 50  0001 C CNN
 	1    5700 5900
 	1    0    0    -1  
@@ -677,32 +659,6 @@ Wire Wire Line
 	5100 4850 5700 4850
 Wire Wire Line
 	5700 6100 5700 6050
-$Sheet
-S 7500 2650 800  2350
-U 5C4EF302
-F0 "matrix" 50
-F1 "matrix.sch" 50
-F2 "row0" T L 7500 2800 50 
-F3 "row1" T L 7500 2900 50 
-F4 "row2" T L 7500 3000 50 
-F5 "row3" T L 7500 3100 50 
-F6 "row4" T L 7500 3200 50 
-F7 "col0" T L 7500 3400 50 
-F8 "col1" T L 7500 3500 50 
-F9 "col2" T L 7500 3600 50 
-F10 "col3" T L 7500 3700 50 
-F11 "col4" T L 7500 3800 50 
-F12 "col5" T L 7500 3900 50 
-F13 "col6" T L 7500 4000 50 
-F14 "col7" T L 7500 4100 50 
-F15 "col8" T L 7500 4200 50 
-F16 "col9" T L 7500 4300 50 
-F17 "col10" T L 7500 4400 50 
-F18 "col11" T L 7500 4500 50 
-F19 "col12" T L 7500 4600 50 
-F20 "col13" T L 7500 4700 50 
-F21 "col14" T L 7500 4800 50 
-$EndSheet
 Wire Wire Line
 	7500 2800 7150 2800
 Entry Wire Line
@@ -723,8 +679,6 @@ Wire Wire Line
 	7150 3100 7500 3100
 Wire Wire Line
 	7150 3200 7500 3200
-Entry Wire Line
-	7050 3500 7150 3400
 Entry Wire Line
 	7050 3600 7150 3500
 Entry Wire Line
@@ -753,6 +707,10 @@ Entry Wire Line
 	7050 4800 7150 4700
 Entry Wire Line
 	7050 4900 7150 4800
+Entry Wire Line
+	7050 5000 7150 4900
+Wire Wire Line
+	7150 4900 7500 4900
 Wire Wire Line
 	7150 4800 7500 4800
 Wire Wire Line
@@ -781,8 +739,6 @@ Wire Wire Line
 	7150 3600 7500 3600
 Wire Wire Line
 	7150 3500 7500 3500
-Wire Wire Line
-	7150 3400 7500 3400
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5C895E5D
@@ -805,36 +761,6 @@ F 3 "~" H 6100 6800 50  0001 C CNN
 	1    6100 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5C895F1B
-P 6100 7000
-F 0 "J10" H 6179 7042 50  0000 L CNN
-F 1 "PF6" H 6179 6951 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 7000 50  0001 C CNN
-F 3 "~" H 6100 7000 50  0001 C CNN
-	1    6100 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5C895F5B
-P 6100 7200
-F 0 "J11" H 6179 7242 50  0000 L CNN
-F 1 "PF7" H 6179 7151 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6100 7200 50  0001 C CNN
-F 3 "~" H 6100 7200 50  0001 C CNN
-	1    6100 7200
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	5500 7300 5600 7200
-Entry Wire Line
-	5500 7100 5600 7000
-Entry Wire Line
-	5500 6900 5600 6800
-Entry Wire Line
-	5500 6700 5600 6600
 Wire Bus Line
 	5750 2700 6100 2700
 Wire Bus Line
@@ -1002,22 +928,10 @@ Wire Wire Line
 	3100 1900 3700 1900
 Wire Wire Line
 	3700 1900 3700 1950
-Wire Wire Line
-	5600 6600 5900 6600
-Wire Wire Line
-	5600 6800 5900 6800
-Wire Wire Line
-	5600 7000 5900 7000
-Wire Wire Line
-	5600 7200 5900 7200
 Text Label 5650 6600 0    50   ~ 0
 PF4
 Text Label 5650 6800 0    50   ~ 0
 PF5
-Text Label 5650 7000 0    50   ~ 0
-PF6
-Text Label 5650 7200 0    50   ~ 0
-PF7
 NoConn ~ 3900 3350
 Wire Wire Line
 	5100 2750 6650 2750
@@ -1041,35 +955,35 @@ Wire Wire Line
 	5100 5150 6650 5150
 Wire Wire Line
 	5100 5250 6650 5250
-Text Label 7200 3400 0    50   ~ 0
-col0
 Text Label 7200 3500 0    50   ~ 0
-col1
-Text Label 7200 4800 0    50   ~ 0
-col14
-Text Label 7200 4700 0    50   ~ 0
-col13
-Text Label 7200 4600 0    50   ~ 0
-col12
-Text Label 7200 4400 0    50   ~ 0
-col10
-Text Label 7200 4500 0    50   ~ 0
-col11
-Text Label 7200 4200 0    50   ~ 0
-col8
-Text Label 7200 4100 0    50   ~ 0
-col7
-Text Label 7200 4300 0    50   ~ 0
-col9
-Text Label 7200 4000 0    50   ~ 0
-col6
+col0
 Text Label 7200 3600 0    50   ~ 0
-col2
+col1
+Text Label 7200 4900 0    50   ~ 0
+col14
+Text Label 7200 4800 0    50   ~ 0
+col13
+Text Label 7200 4700 0    50   ~ 0
+col12
+Text Label 7200 4500 0    50   ~ 0
+col10
+Text Label 7200 4600 0    50   ~ 0
+col11
+Text Label 7200 4300 0    50   ~ 0
+col8
+Text Label 7200 4200 0    50   ~ 0
+col7
+Text Label 7200 4400 0    50   ~ 0
+col9
+Text Label 7200 4100 0    50   ~ 0
+col6
 Text Label 7200 3700 0    50   ~ 0
-col3
+col2
 Text Label 7200 3800 0    50   ~ 0
-col4
+col3
 Text Label 7200 3900 0    50   ~ 0
+col4
+Text Label 7200 4000 0    50   ~ 0
 col5
 Wire Wire Line
 	5100 3150 5350 3150
@@ -1192,16 +1106,6 @@ F 3 "~" H 8700 2900 50  0001 C CNN
 	1    8700 2900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5750 2700 5750 3150
-Wire Bus Line
-	3550 700  3550 2100
-Wire Bus Line
-	5500 5350 5500 7400
-Wire Bus Line
-	6750 2750 6750 5800
-Wire Bus Line
-	7050 2650 7050 5800
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5C59C18D
@@ -1268,4 +1172,121 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    8700 4100
 	1    0    0    -1  
 $EndComp
+Entry Wire Line
+	7050 3400 7150 3300
+$Sheet
+S 7500 2650 800  2600
+U 5C4EF302
+F0 "matrix" 50
+F1 "matrix.sch" 50
+F2 "row0" T L 7500 2800 50 
+F3 "row1" T L 7500 2900 50 
+F4 "row2" T L 7500 3000 50 
+F5 "row3" T L 7500 3100 50 
+F6 "row4" T L 7500 3200 50 
+F7 "col0" T L 7500 3500 50 
+F8 "col1" T L 7500 3600 50 
+F9 "col2" T L 7500 3700 50 
+F10 "col3" T L 7500 3800 50 
+F11 "col4" T L 7500 3900 50 
+F12 "col5" T L 7500 4000 50 
+F13 "col6" T L 7500 4100 50 
+F14 "col7" T L 7500 4200 50 
+F15 "col8" T L 7500 4300 50 
+F16 "col9" T L 7500 4400 50 
+F17 "col10" T L 7500 4500 50 
+F18 "col11" T L 7500 4600 50 
+F19 "col12" T L 7500 4700 50 
+F20 "col13" T L 7500 4800 50 
+F21 "col14" T L 7500 4900 50 
+F22 "row5" B L 7500 3300 50 
+F23 "ledGND" B L 7500 5100 50 
+$EndSheet
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 5EC38ADB
+P 6350 5950
+F 0 "Q1" H 6555 5995 50  0000 L CNN
+F 1 "2N7002" H 6555 5905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 5875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6350 5950 50  0001 L CNN
+	1    6350 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3300 7500 3300
+Text Label 7200 3300 0    50   ~ 0
+row5
+Entry Wire Line
+	7050 5200 7150 5100
+Wire Wire Line
+	7150 5100 7500 5100
+Text Label 7200 5100 0    50   ~ 0
+ledGND
+Entry Wire Line
+	6750 5750 6650 5650
+Entry Wire Line
+	6750 5450 6650 5350
+Wire Wire Line
+	6200 5350 6650 5350
+Text Label 6450 5650 0    50   ~ 0
+ledGND
+Text Label 6450 5350 0    50   ~ 0
+row5
+Wire Wire Line
+	6450 5650 6650 5650
+Wire Wire Line
+	6450 5650 6450 5750
+Wire Wire Line
+	6100 5950 6150 5950
+$Comp
+L power:GND #PWR0122
+U 1 1 5EC30AAD
+P 6450 6250
+F 0 "#PWR0122" H 6450 6000 50  0001 C CNN
+F 1 "GND" H 6455 6077 50  0000 C CNN
+F 2 "" H 6450 6250 50  0001 C CNN
+F 3 "" H 6450 6250 50  0001 C CNN
+	1    6450 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6150 6450 6250
+Wire Wire Line
+	5400 6800 5400 5450
+Wire Wire Line
+	5400 6800 5900 6800
+Wire Wire Line
+	5450 5350 5450 6600
+Wire Wire Line
+	5100 5350 5450 5350
+Wire Wire Line
+	5450 6600 5900 6600
+$Comp
+L Device:R R5
+U 1 1 5EC25C97
+P 5950 5550
+F 0 "R5" V 6050 5500 50  0000 L CNN
+F 1 "1.5K" V 5950 5450 46  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 5550 50  0001 C CNN
+F 3 "~" H 5950 5550 50  0001 C CNN
+	1    5950 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 5550 6100 5950
+Wire Wire Line
+	5100 5550 5800 5550
+Wire Wire Line
+	6200 5350 6200 5650
+Wire Wire Line
+	5100 5650 6200 5650
+Wire Bus Line
+	5750 2700 5750 3150
+Wire Bus Line
+	3550 700  3550 2100
+Wire Bus Line
+	6750 2750 6750 5800
+Wire Bus Line
+	7050 2650 7050 5800
 $EndSCHEMATC
