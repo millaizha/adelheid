@@ -9,9 +9,9 @@ It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozo
 
 - [x] added an angled spaced function row
 - [x] added option for stepped caps lock
-- [x] replaced micro usb port with tht mini usb port
+- [x] replaced micro usb port with tht mini usb port (MX-54819-0519)
 - [ ] option for 2u backspace
-- [ ] optional single color through hole led backlight &amp; SMD underglow?
+- [x] added single color underglow and key lighting (NOT TESTED YET)
 
 ## Layout
 

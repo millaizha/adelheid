@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "arisu-rescue")(type "Legacy")(uri "${KIPRJMOD}/arisu-rescue.lib")(options "")(descr ""))
-  (lib (name "adelheid-rescue")(type "Legacy")(uri "${KIPRJMOD}/adelheid-rescue.lib")(options "")(descr ""))
-)

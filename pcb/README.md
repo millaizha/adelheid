@@ -9,7 +9,8 @@ The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
 - [x] Added a spaced function row
 - [x] Added footprint for stepped caps lock key
-- [x] Changed the micro USB port to a tht mini USB port
+- [x] Changed the micro USB port to a tht mini USB port (MX-54819-0519)
+- [x] added single color underglow and key lighting (NOT TESTED YET)
 
 ## FateNozomi's Arisu description
 
