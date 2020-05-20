@@ -9,9 +9,8 @@ It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozo
 
 - [x] added an angled spaced function row
 - [x] added option for stepped caps lock
-- [x] replaced micro usb port with tht mini usb port (MX-54819-0519)
-- [ ] option for 2u backspace
-- [x] added single color underglow and key lighting (NOT TESTED YET)
+- [x] replaced micro usb port with tht mini usb port
+- [x] added single color underglow and key lighting **(WIP - NOT TESTED YET)**
 
 ## Layout
 
@@ -29,16 +28,12 @@ And hopefully soon in the main QMK repository.
 
 > Why?
 
-Good question, I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you don't have to move your hands. But I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a dedicated key. So that's why I added a the function row. By default you can still access the function keys via the number row on the secondary layer.
+Good question, I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you don't have to move your hands that much. But I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a single dedicated key. So that's why I added a the function row. By default you can still access the function keys via the number row on the secondary layer.  
 
 > Where does the name Adelheid come from?
 
 I thought it be nice to continue the somewhat tradition of naming Alice-clones by putting a spin on the forename Alice, just like the Arisu, Lisa and Majbritt did. I chose Adelheid as a German spin on the name since that's where I'm from.  
 The typeface is called Fraktur and was the dominant typeface during the time when Adelheid was one of the most popular names.
-
-> Are you planning on adding a 2u backspace?
-
-Yes, I'll probably add that option to the PCB and case files in the coming weeks.
 
 > I want RGB lighting, will you add RGB LED support to the PCB?
 
