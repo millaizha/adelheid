@@ -1,7 +1,7 @@
 # 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - PCB
 
-![adelheid_pcb_top](../images/pcb_plain_top.jpg)  
-![adelheid_pcb_bottom](../images/pcb_plain_bottom.jpg)
+![adelheid_pcb_top](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/v1_plain_top.jpg)  
+![adelheid_pcb_bottom](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/v1_plain_bottom.jpg)
 
 The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
