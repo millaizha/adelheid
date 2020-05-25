@@ -29,6 +29,11 @@ The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
 The Adelheid inherits these changes from the Arisu.
 
+## KiCAD libraries in use
+
+- [ai03/MX_Only](https://github.com/ai03-2725/MX_Alps_Hybrid/tree/master/MX_Only.pretty) for MX switch footprints (local copy in `./lib/`)
+- [Keebio-Parts](https://github.com/keebio/Keebio-Parts.pretty) for mini USB port footprint
+
 ## Parts list
 
 ### SMD
@@ -38,7 +43,7 @@ If you opt in for LED backlighting/underglow please make sure to use the correct
 
 ### THT
 
-- 82x MX/Choc switches *(Choc switches have not been tested with the case files as of yet)*
+- 82x MX switches
 - 1x through-hole mini USB 2.0 port (MX-54819-0519)
 - (optional) 82x 3mm single color LEDs
 

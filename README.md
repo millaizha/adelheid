@@ -22,24 +22,23 @@ A spaced 75% layout on top of the Alice/Arisu-layout.
 ## Firmware
 
 <https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid>  
-And hopefully soon in the main QMK repository.
+And hopefully soon in the main QMK repository. I'll have to test the lighting support first though, before I'll open a pull request.
 
-## Miscellancious
+## Miscellaneous
 
 > Why?
 
-Good question, I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you don't have to move your hands that much. But I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a single dedicated key. So that's why I added a the function row. By default you can still access the function keys via the number row on the secondary layer.  
+Good question, I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you don't have to move your hands that much. But I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a single dedicated key. So that's why I added the function row. By default you can still access the function keys via the number row on the secondary layer.  
 
 > Where does the name Adelheid come from?
 
-I thought it be nice to continue the somewhat tradition of naming Alice-clones by putting a spin on the forename Alice, just like the Arisu, Lisa and Majbritt did. I chose Adelheid as a German spin on the name since that's where I'm from.  
+I thought it'd be nice to continue the somewhat tradition of naming Alice-clones by putting a spin on the forename Alice, just like the Arisu, Lisa and Majbritt did. I chose Adelheid as a German spin on the name since that's where I'm from.  
 The typeface is called Fraktur and was the dominant typeface during the time when Adelheid was one of the most popular names.
-
-> I want RGB lighting, will you add RGB LED support to the PCB?
-
-No, I won't add footprints for RGB LEDs. I think backlighting for many keysets looks best either off or in a single color. From experience I noticed that even if you have the possibility to change the colors on the go, you do it once and then never again. So I might add per key single color through hole LED support and SMD underglow.  
-You could of course buy an RGB strip and use one of the free exposed pins to control the strip.
 
 > Will you add more keys to the bottom row or a second B key?
 
 I don't plan on changing the bottom row or adding a second B key. In my opinion the keyboard looks the best and most balanced the way Fate designed it.
+
+> How about rotary encoder support?
+
+I thought about it, I might add an optional encoder footprint at the `F13` key similiar to how the Kyria did it. I'd probably have to drop the LED holes for that though.
