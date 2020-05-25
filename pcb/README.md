@@ -5,12 +5,12 @@
 
 The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
-## Changes to Arisu
+## Changes compared to the Arisu PCB
 
 - [x] Added a spaced function row
 - [x] Added footprint for stepped caps lock key
-- [x] Changed the micro USB port to a tht mini USB port (MX-54819-0519)
-- [x] added single color underglow and key lighting (NOT TESTED YET)
+- [x] Changed the micro USB port to a tht mini USB port
+- [x] Added single color underglow and key lighting **(NOT TESTED YET)**
 
 ## FateNozomi's Arisu description
 
@@ -27,8 +27,26 @@ The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 > Lyn's EM7 and TGR Alice uses the home row as the center point to vertically align both halves while I used the number row instead.  
 > Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
 
+The Adelheid inherits these changes from the Arisu.
+
 ## Parts list
 
-See the attached [BOM](./adelheid.csv).
+### SMD
 
-**Disclaimer**: Use these files at your own risk.
+All SMD parts are listed in the [BOM](./adelheid.gerber/adelheid.csv) with their corresponding value, label and LCSC number.  
+If you opt in for LED backlighting/underglow please make sure to use the correct resistor size in order for your PCB to function. See [here](#backlighting) for led resistor estimations.
+
+### THT
+
+- 82x MX/Choc switches *(Choc switches have not been tested with the case files as of yet)*
+- 1x through-hole mini USB 2.0 port (MX-54819-0519)
+- (optional) 82x 3mm single color LEDs
+
+## Backlighting
+
+To calculate what resistors you'll need you can use my [led lighting spreadsheet](./backlight.ods) to calculate the estimated total power draw. Enter your LED specifications and either enter the desired current per LED or enter the resistor size which you are planning on using. The spreadsheet should calculate the total power draw and compare it to the allowed power draw of USB 2.0 (500 mA).
+
+## **Disclaimer**
+
+Use these files at your own risk.  
+*Note:* Lighting features have not been tested yet! Be extra precautious here please.
