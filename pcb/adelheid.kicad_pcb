@@ -11,7 +11,7 @@
   (page "User" 389.992 200)
   (title_block
     (title "Adelheid")
-    (rev "2.0")
+    (rev "1.0")
     (company "floookay")
   )
 
@@ -13285,7 +13285,7 @@
   (gr_text "." (at 171.577 37.465) (layer "F.Cu")
     (effects (font (size 1.5 1.5) (thickness 0.375)))
   )
-  (gr_text "fork of FateNozomi/arisu-pcb\nby floookay [v2]" (at 287.147 146.177) (layer "B.SilkS")
+  (gr_text "fork of FateNozomi/arisu-pcb\nby floookay [Rev1.0]" (at 287.147 146.177) (layer "B.SilkS")
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 271.849745 113.54133) (end 271.850038 113.529777) (layer "Eco1.User") (width 0.1))

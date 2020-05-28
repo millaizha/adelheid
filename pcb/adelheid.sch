@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "Adelheid"
 Date ""
-Rev "2.0"
+Rev "1.0"
 Comp "floookay"
 Comment1 ""
 Comment2 ""
