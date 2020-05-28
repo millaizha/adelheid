@@ -7,7 +7,7 @@ Because the bottom of the Adelheid keyboard was not altered, these wrist rests w
 - [x] angled wrist rest for high profile Adelheid &amp; Arisu
 - [x] flat wrist rest for high profile Adelheid &amp; Arisu
 
-![angled wrist-rest_top](https://raw.githubusercontent.com/floookay/img/master/adelheid/wrist-rest/layers/angled_top.png)  
-![angled wrist-rest_bottom](https://raw.githubusercontent.com/floookay/img/master/adelheid/wrist-rest/layers/angled_bottom.png)  
-![angled wrist-rest_side](https://raw.githubusercontent.com/floookay/img/master/adelheid/wrist-rest/layers/angled_side.png)  
-<!-- ![angled wrist-rest_detached](https://raw.githubusercontent.com/floookay/img/master/adelheid/wrist-rest/layers/angled_detached.png) -->
+![angled wrist-rest_top](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/559336bcb5f8c04bbea9ad8aab7397812ab72859/angled_top.jpg)  
+<!-- ![angled wrist-rest_bottom](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/559336bcb5f8c04bbea9ad8aab7397812ab72859/angled_bottom.jpg) -->
+![angled wrist-rest_side](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/559336bcb5f8c04bbea9ad8aab7397812ab72859/angled_side.jpg)  
+<!-- ![angled wrist-rest_detached](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/559336bcb5f8c04bbea9ad8aab7397812ab72859/angled_detached.jpg) -->

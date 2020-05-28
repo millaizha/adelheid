@@ -1,7 +1,7 @@
 # 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - PCB
 
-![adelheid_pcb_top](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/rev1_assembled_top.jpg)  
-![adelheid_pcb_bottom](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/rev1_assembled_bottom.jpg)
+![adelheid_pcb_top](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_top.jpg)  
+![adelheid_pcb_bottom](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_bottom.jpg)
 
 The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
@@ -51,7 +51,7 @@ If you opt in for LED backlighting/underglow please make sure to use the correct
 
 To calculate what resistors you'll need you can use my [backlight calculator spreadsheet](./backlight.ods) to calculate the estimated total power draw. Enter your LED specifications and either enter the desired current per LED or enter the resistor size which you are planning on using. The spreadsheet should calculate the total power draw and compare it to the allowed power draw of USB 2.0 (500 mA). *I'm no electrical engineer so please be cautious.*
 
-![underglow](https://raw.githubusercontent.com/floookay/img/master/adelheid/total/underglow.jpg)
+<!-- ![underglow](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/underglow.jpg) -->
 
 ## **Disclaimer**
 
