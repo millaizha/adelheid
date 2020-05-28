@@ -1,7 +1,7 @@
 # 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - PCB
 
-![adelheid_pcb_top](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/v1_plain_top.jpg)  
-![adelheid_pcb_bottom](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/v1_plain_bottom.jpg)
+![adelheid_pcb_top](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/rev1_assembled_top.jpg)  
+![adelheid_pcb_bottom](https://raw.githubusercontent.com/floookay/img/master/adelheid/pcb/rev1_assembled_bottom.jpg)
 
 The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 
@@ -10,7 +10,7 @@ The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 - [x] Added a spaced function row
 - [x] Added footprint for stepped caps lock key
 - [x] Changed the micro USB port to a tht mini USB port
-- [x] Added single color underglow and key lighting **(NOT TESTED YET)**
+- [x] Added single color underglow and key lighting *(underglow on it's own works fine. Both combined have **not been tested yet**)*
 
 ## FateNozomi's Arisu description
 
@@ -39,7 +39,7 @@ The Adelheid inherits these changes from the Arisu.
 ### SMD
 
 All SMD parts are listed in the [BOM](./adelheid.gerber/adelheid.csv) with their corresponding value, label and LCSC number.  
-If you opt in for LED backlighting/underglow please make sure to use the correct resistor size in order for your PCB to function. See [here](#backlighting) for led resistor estimations.
+If you opt in for LED backlighting/underglow please make sure to use the correct resistor size for your LEDs in order for your PCB to function correctly. See [here](#backlighting) for led resistor estimations.
 
 ### THT
 
@@ -49,9 +49,11 @@ If you opt in for LED backlighting/underglow please make sure to use the correct
 
 ## Backlighting
 
-To calculate what resistors you'll need you can use my [led lighting spreadsheet](./backlight.ods) to calculate the estimated total power draw. Enter your LED specifications and either enter the desired current per LED or enter the resistor size which you are planning on using. The spreadsheet should calculate the total power draw and compare it to the allowed power draw of USB 2.0 (500 mA).
+To calculate what resistors you'll need you can use my [backlight calculator spreadsheet](./backlight.ods) to calculate the estimated total power draw. Enter your LED specifications and either enter the desired current per LED or enter the resistor size which you are planning on using. The spreadsheet should calculate the total power draw and compare it to the allowed power draw of USB 2.0 (500 mA). *I'm no electrical engineer so please be cautious.*
+
+![underglow](https://raw.githubusercontent.com/floookay/img/master/adelheid/total/underglow.jpg)
 
 ## **Disclaimer**
 
 Use these files at your own risk.  
-*Note:* Lighting features have not been tested yet! Be extra precautious here please.
+*Note:* Lighting features have not been entirely tested yet! Please be cautious.

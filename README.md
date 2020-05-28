@@ -3,26 +3,25 @@
 The Adelheid is a 75% Alice-like keyboard.  
 It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozomi/arisu-pcb) &amp; [Arisu case](https://github.com/FateNozomi/arisu-case)
 
-![adelheid](https://raw.githubusercontent.com/floookay/img/master/adelheid/adelheid.png)
+![adelheid](https://raw.githubusercontent.com/floookay/img/master/adelheid/adelheid.jpg)
+![adelheid side](https://raw.githubusercontent.com/floookay/img/master/adelheid/total/side_shadow.jpg)
 
-## Changes
+## Changes in this fork
 
-- [x] added an angled spaced function row
-- [x] added option for stepped caps lock
-- [x] replaced micro usb port with tht mini usb port
-- [x] added single color underglow and key lighting **(WIP - NOT TESTED YET)**
+see [changes.md](./changes.md)
 
 ## Layout
 
 A spaced 75% layout on top of the Alice/Arisu-layout.
 
 [Keyboard-Layout-Editor](http://www.keyboard-layout-editor.com/#/gists/4262535adb5ac81a913edbebc4de8226) [(raw)](https://gist.github.com/floookay/4262535adb5ac81a913edbebc4de8226)  
-![adelheid_layout](https://raw.githubusercontent.com/floookay/img/master/adelheid/layout.png)  
+![adelheid layout](https://raw.githubusercontent.com/floookay/img/master/adelheid/layout.png)  
+![adelheid top view](https://raw.githubusercontent.com/floookay/img/master/adelheid/top_view.jpg)
 
 ## Firmware
 
 <https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid>  
-And hopefully soon in the main QMK repository. I'll have to test the lighting support first though, before I'll open a pull request.
+And hopefully soon in the main QMK repository. I'll test the lighting support first though, before I'll open a pull request.
 
 ## Miscellaneous
 
@@ -39,6 +38,8 @@ The typeface is called Fraktur and was the dominant typeface during the time whe
 
 I don't plan on changing the bottom row or adding a second B key. In my opinion the keyboard looks the best and most balanced the way Fate designed it.
 
-> How about rotary encoder support?
+## TODO
 
-I thought about it, I might add an optional encoder footprint at the `F13` key similiar to how the Kyria did it. I'd probably have to drop the LED holes for that though.
+- **test lighting support**
+- add 3d printable case files
+- maybe rework the switch positions/cutouts in all files slightly (function row margin is larger at the bottom of the key, F7 is slightly more inwards)
