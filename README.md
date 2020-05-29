@@ -16,7 +16,7 @@ This repository includes files for:
 
 Here is a list of things I added in this fork in comparison to the Arisu:
 
-- [x] added an angled spaced function row
+- [x] added an angled &amp; spaced function row
 - [x] added option for stepped caps lock
 - [x] replaced micro usb port with tht mini usb port
 - [x] added single color underglow and key lighting **(WIP - underglow works, but per key LEDs have not been tested yet)**
@@ -44,11 +44,11 @@ For more images see this [image carousel](./IMAGES.md).
 
 > Why?
 
-Good question, I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you don't have to move your hands that much. But I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a single dedicated key. So that's why I added the function row. By default you can still access the function keys via the number row on the secondary layer.  
+I think accessing the function keys with a layer on the number row is the superior method as it's faster and more comfortable because you barely have to move your hands. I found myself trying to access the function row one-handedly quite often and nothing beats the comfort of pressing a single dedicated key. By default you can still access the function keys via the number row on the secondary layer.
 
 > Where does the name Adelheid come from?
 
-I thought it'd be nice to continue the somewhat tradition of naming Alice-clones by putting a spin on the forename Alice, just like the Arisu, Lisa and Majbritt did. I chose Adelheid as a German spin on the name since that's where I'm from.  
+I thought it'd be nice to continue the somewhat tradition of naming Alice-clones by putting a spin on the forename Alice, just like the Arisu, Lisa and Majbritt did. I chose Adelheid as a German spin on the name.  
 The typeface is called Fraktur and was the dominant typeface during the time when Adelheid was one of the most popular names.
 
 > Will you add more keys to the bottom row or a second B key?
@@ -59,4 +59,4 @@ I don't plan on changing the bottom row or adding a second B key. In my opinion 
 
 - **test lighting support**
 - add 3d printable case files
-- maybe rework the switch positions/cutouts in all files slightly (function row margin is larger at the bottom of the key, F7 is slightly more inwards)
+- maybe rework the switch positions/cutouts in all files slightly (function row margin is slightly larger at the bottom of the keys, F7 is slightly more inwards)
