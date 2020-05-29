@@ -38,7 +38,7 @@ And hopefully soon in the main QMK repository. I'll have to test the lighting su
 
 ## Images
 
-For more images see this [image carousel](./IMAGES.md).
+For more images see [images.md](./IMAGES.md).
 
 ## Miscellaneous
 
