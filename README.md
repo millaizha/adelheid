@@ -59,4 +59,3 @@ I don't plan on changing the bottom row or adding a second B key. In my opinion 
 
 - **test lighting support**
 - add 3d printable case files
-- maybe rework the switch positions/cutouts in all files slightly (function row margin is slightly larger at the bottom of the keys, F7 is slightly more inwards)
