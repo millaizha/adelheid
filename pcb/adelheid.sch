@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,17 +6,12 @@ encoding utf-8
 Sheet 1 2
 Title "Adelheid"
 Date ""
-Rev "1.0"
+Rev "2.0"
 Comp "floookay"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L adelheid-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U2
@@ -41,7 +36,7 @@ F 3 "~" H 1150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U1
+L adelheid-rescue:USBLC6-2SC6-Power_Protection U1
 U 1 1 5C4B2347
 P 1900 5650
 F 0 "U1" H 1900 6328 50  0000 C CNN
@@ -942,8 +937,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3450 6650 3450
 Wire Wire Line
-	5100 3650 6650 3650
-Wire Wire Line
 	5100 3750 6650 3750
 Wire Wire Line
 	5100 3950 6650 3950
@@ -1237,8 +1230,6 @@ Wire Wire Line
 	6450 5650 6650 5650
 Wire Wire Line
 	6450 5650 6450 5750
-Wire Wire Line
-	6100 5950 6150 5950
 $Comp
 L power:GND #PWR0122
 U 1 1 5EC30AAD
@@ -1265,22 +1256,32 @@ Wire Wire Line
 $Comp
 L Device:R R5
 U 1 1 5EC25C97
-P 5950 5550
-F 0 "R5" V 6050 5500 50  0000 L CNN
-F 1 "1.5K" V 5950 5450 46  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 5550 50  0001 C CNN
-F 3 "~" H 5950 5550 50  0001 C CNN
-	1    5950 5550
+P 5600 3650
+F 0 "R5" V 5700 3600 50  0000 L CNN
+F 1 "1.5K" V 5600 3550 46  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6100 5550 6100 5950
-Wire Wire Line
-	5100 5550 5800 5550
 Wire Wire Line
 	6200 5350 6200 5650
 Wire Wire Line
 	5100 5650 6200 5650
+Wire Wire Line
+	5100 3650 5450 3650
+Wire Wire Line
+	5750 3650 6000 3650
+Wire Wire Line
+	6000 3650 6000 5950
+Wire Wire Line
+	6000 5950 6150 5950
+Wire Wire Line
+	5100 5550 6150 5550
+Wire Wire Line
+	6150 5550 6150 3650
+Wire Wire Line
+	6150 3650 6650 3650
 Wire Bus Line
 	5750 2700 5750 3150
 Wire Bus Line
