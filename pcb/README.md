@@ -1,5 +1,8 @@
 # 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - PCB
 
+**Disclaimer:** This PCB revision uses a pin for backlight support that is not PWM enabled. This causes the LEDs to flicker. Everything else works without a problem.  
+You can fix this yourself by following [these instructions](../REVISION-UPGRADE-INSTRUCTIONS.md).
+
 ![adelheid_pcb_top](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_top.jpg)  
 ![adelheid_pcb_bottom](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_bottom.jpg)
 

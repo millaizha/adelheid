@@ -1,4 +1,9 @@
-# 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - WIP
+# 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 Revision 1.0 (Superseeded by Revision 2.0)
+
+**Disclaimer:** Revision 1.0 uses pin 37 (F6) for LED backlight. This causes the LEDs to flicker slightly because that pin is not a PWM pin.  
+In Revision 2.0 the backlight and col4 pins are swapped. The new backlight pin is therefore pin 31 (C6) and col4 is on pin 37 (F6).  
+Fortunately you can easily make a Revision 1.0 PCB compatible with the Revision 2.0 firmware so you can enjoy a steady LED backlight.  
+The process is documented here &rarr; [REVISION-UPGRADE-INSTRUCTIONS.md](./REVISION-UPGRADE-INSTRUCTIONS.md)
 
 The Adelheid is a 75% Alice-like keyboard.  
 It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozomi/arisu-pcb) &amp; [Arisu case](https://github.com/FateNozomi/arisu-case)
@@ -33,8 +38,18 @@ A spaced 75% layout on top of the Alice/Arisu-layout.
 
 ## Firmware
 
-<https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid>  
-And hopefully soon in the main QMK repository. I'll have to test the lighting support first though, before I'll open a pull request.
+The firmware of Revision 1.0 and Revision 2.0 are incompatible because pins had to be swapped. The latest QMK firmware files for Revision 1.0 can be found under [this commit](https://github.com/floookay/qmk_firmware/commit/509ece8587e4c4dd17ae6ce7aae5302aec95cbb8).  
+If you already have the files for Revision 2.0 but own a Revision 1.0 PCB consider manually upgrading your PCB to Revision 2.0 ([instructions](./REVISION-UPGRADE-INSTRUCTIONS.md)) so backlighting is properly supported, or (if you don't care about backlighting) edit the matrix and backlight pins in the firmware files.
+
+For **Revision 1.0** the corresponding section in `config.h` should look like this:
+
+```cpp
+#define MATRIX_ROW_PINS { D0, F4, D1, D2, D3, D5, F7 }
+#define MATRIX_COL_PINS { F0, F1, E6, C7, C6, B6, D4, B1, B0, B7, B5, B4, D7, D6, B3 }  // C6 instead of F6
+…
+#define BACKLIGHT_PIN F6    // F6 instead of C6
+#define BACKLIGHT_LEVELS 3
+```
 
 ## Images
 
