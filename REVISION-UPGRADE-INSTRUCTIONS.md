@@ -21,4 +21,4 @@ Revision 1.0 of the PCB uses the wrong pin for the backlight functionality which
 
 ![second step](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/c87a478d297af8eb8f7ab86c3eeb79d1fd98e5e3/rev1_step2.jpg)
 
-8. Secure the wires with some electrical tape and lean your PCB from solder sprinkles.
+8. Secure the wires with some electrical tape and clean your PCB from solder sprinkles.
