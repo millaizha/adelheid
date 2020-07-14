@@ -16,9 +16,9 @@ Because the bottom of the Adelheid keyboard was not altered, these wrist rests w
 
 | HiPro | LoPro | part                               |
 | ----- | ----- | ---------------------------------- |
-| 8x    | 0x    | 12mm M 2.5 screws                  |
+| 4x    | 4x    | 12mm M 2.5 screws                  |
 | 0x    | 8x    | 4mm M 2.5 screws                   |
-| 8x    | 8x    | 5mm M 2.5 standoffs                |
+| 4x    | 4x    | 5mm M 2.5 standoffs                |
 | 4+    | 4+    | self-adhesive anti slip feet (8x3) |
 
 HiPro &rarr; all layers  
