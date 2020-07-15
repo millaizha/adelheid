@@ -1,4 +1,4 @@
-# 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - WIP
+# 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉
 
 The Adelheid is a 75% Alice-like keyboard.  
 It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozomi/arisu-pcb) &amp; [Arisu case](https://github.com/FateNozomi/arisu-case)
@@ -19,7 +19,7 @@ Here is a list of things I added in this fork in comparison to the Arisu:
 - [x] added an angled &amp; spaced function row
 - [x] added option for stepped caps lock
 - [x] replaced micro usb port with tht mini usb port
-- [x] added single color underglow and key lighting **(WIP - underglow works, but per key LEDs have not been tested yet)**
+- [x] added single color underglow and key lighting
 
 for a visual comparison see [here](./IMAGES.md#arisu-comparison)
 
@@ -34,7 +34,6 @@ A spaced 75% layout on top of the Alice/Arisu-layout.
 ## Firmware
 
 <https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid>  
-And hopefully soon in the main QMK repository. I'll have to test the lighting support first though, before I'll open a pull request.
 
 ## Images
 
@@ -57,5 +56,4 @@ I don't plan on changing the bottom row or adding a second B key. In my opinion 
 
 ## TODO's
 
-- **test lighting support**
 - add 3d printable case files

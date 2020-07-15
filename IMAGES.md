@@ -1,6 +1,6 @@
 # 𝕬𝖉𝖊𝖑𝖍𝖊𝖎𝖉 - Images
 
-(~11MB)
+(~14MB)
 
 ## Finished Keyboard
 
@@ -26,7 +26,11 @@
 
 ![i](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_bottom.jpg)
 ![i](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/rev1_assembled_top.jpg)
+
+### Revision 2.0
+
 ![i](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/underglow.jpg)
+![i](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/9e10a12793ed65a09f529caf7a6c52b8ec96cc22/backlight_full.jpg) (the wire is there because of Rev1.0&rarr;Rev2.0 conversion)
 
 ## Case
 

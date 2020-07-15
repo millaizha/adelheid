@@ -10,7 +10,7 @@ The PCB for the Adelheid was designed using KiCAD on top of the Arisu PCB files.
 - [x] Added a spaced function row
 - [x] Added footprint for stepped caps lock key
 - [x] Changed the micro USB port to a tht mini USB port
-- [x] Added single color underglow and key lighting *(underglow on it's own works fine. Both combined have **not been tested yet**)*
+- [x] Added single color underglow and key lighting
 
 ## FateNozomi's Arisu description
 
@@ -52,8 +52,8 @@ If you opt in for LED backlighting/underglow please make sure to use the correct
 To calculate what resistors you'll need you can use my [backlight calculator spreadsheet](./backlight.ods) to calculate the estimated total power draw. Enter your LED specifications and either enter the desired current per LED or enter the resistor size which you are planning on using. The spreadsheet should calculate the total power draw and compare it to the allowed power draw of USB 2.0 (500 mA). *I'm no electrical engineer so please be cautious.*
 
 <!-- ![underglow](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/4545813142abf2e65902b7caca10f7a3b39ebaed/underglow.jpg) -->
+<!-- ![full backlight](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/9e10a12793ed65a09f529caf7a6c52b8ec96cc22/backlight_full.jpg) -->
 
 ## **Disclaimer**
 
-Use these files at your own risk.  
-*Note:* Lighting features have not been entirely tested yet! Please be cautious.
+Please use these files at your own risk.
