@@ -33,7 +33,8 @@ A spaced 75% layout on top of the Alice/Arisu-layout.
 
 ## Firmware
 
-<https://github.com/floookay/qmk_firmware/tree/adelheid/keyboards/adelheid>  
+In the QMK repository: <https://github.com/qmk/qmk_firmware/tree/master/keyboards/adelheid>  
+And the online configurator: https://config.qmk.fm/#/adelheid/LAYOUT
 
 ## Images
 
