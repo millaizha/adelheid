@@ -2,4 +2,6 @@
 
 ## Lasercutable Layered Case
 
-acrylic to be put
+![layout](./layout.png)
+
+final product (acrylic) to be put
