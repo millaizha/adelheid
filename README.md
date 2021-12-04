@@ -3,7 +3,7 @@
 The Adelheid is a 75% Alice-like keyboard.  
 It's a fork of FateNozomi's Arisu files: [Arisu PCB](https://github.com/FateNozomi/arisu-pcb) &amp; [Arisu case](https://github.com/FateNozomi/arisu-case)
 
-This repo is a hand-wired version fork from [floookay's Adelheid]: https://github.com/floookay/adelheid with some layout changes.
+This repo is a hand-wired version fork from [floookay's Adelheid]: https://github.com/floookay/adelheid with some changes.
 
 
 This repository includes files for:
@@ -29,8 +29,7 @@ A spaced 75% layout on top of the Alice/Arisu-layout.
 
 ## Firmware
 
-In the QMK repository: <https://github.com/qmk/qmk_firmware/tree/master/keyboards/adelheid>  
-And the online configurator: https://config.qmk.fm/#/adelheid/LAYOUT
+See [firmware](https://github.com/millaizha/adelheid-hand-wire/tree/master/firmware)
 
 ## Images
 
